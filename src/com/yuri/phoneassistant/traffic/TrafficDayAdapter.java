@@ -2,8 +2,8 @@ package com.yuri.phoneassistant.traffic;
 
 import java.util.List;
 
-import com.nineoldandroids.view.ViewHelper;
 import com.yuri.phoneassistant.R;
+import com.yuri.phoneassistant.Log;
 
 import android.content.Context;
 import android.text.format.Formatter;
@@ -55,6 +55,9 @@ public class TrafficDayAdapter extends BaseAdapter {
 		TrafficDayItem item = mDataItems.get(position);
 		titleView.setText(item.getDay() + "日");
 		
+		Log.d(TAG, "getView.getDay:" + (item.getDay()));
+        Log.d(TAG, "getView.getDayBytes:" + (item.getDayBytes()));
+        
 		numView.setText(Formatter.formatFileSize(mContext, item.getDayBytes()));
 		
 		return view;

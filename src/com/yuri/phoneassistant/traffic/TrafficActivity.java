@@ -6,7 +6,7 @@ import java.util.List;
 import com.yuri.phoneassistant.R;
 import com.yuri.phoneassistant.db.MetaData.TrafficsDay;
 import com.yuri.phoneassistant.db.MetaData.TrafficsMonth;
-import com.zhaoyan.common.utils.Log;
+import com.yuri.phoneassistant.Log;
 
 import android.app.Activity;
 import android.app.LoaderManager.LoaderCallbacks;

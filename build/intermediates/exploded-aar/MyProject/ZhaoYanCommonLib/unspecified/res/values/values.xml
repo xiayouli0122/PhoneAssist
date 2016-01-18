@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/Dev/work-git/MyProject/ZhaoYanCommonLib/res/values/array_file_endings.xml -->
+    <eat-comment/>
+    <array name="Category_files_ending">
+    <item>.doc</item>
+    <item>.docx</item>
+    <item>.xls</item>
+    <item>.xlsx</item>
+    <item>.ppt</item>
+    <item>.pptx</item>
+    <item>.pps</item>
+    <item>.ppsx</item>
+    <item>.pdf</item>
+    <item>.txt</item>
+    <item>.uml</item>
+    <item>.ebk</item>
+    <item>.chm</item>
+    <item>.apk</item>
+    <item>.jar</item>
+    <item>.zip</item>
+    <item>.rar</item>
+    <item>.gz</item>
+    <item>.7z</item>
+    <item>.iso</item>
+</array>
+    <array name="apk_file">
+    <item>.apk</item>
+</array>
+    <array name="archive_file">
+    <item>.zip</item>
+    <item>.rar</item>
+</array>
+    <array name="doc_file">
+    <item>.doc</item>
+    <item>.docx</item>
+    <item>.xls</item>
+    <item>.xlsx</item>
+    <item>.ppt</item>
+    <item>.pptx</item>
+    <item>.pps</item>
+    <item>.ppsx</item>
+    <item>.pdf</item>
+    <item>.txt</item>
+    <item>.uml</item>
+    <item>.ebk</item>
+    <item>.chm</item>
+</array>
+    <array name="ext_apk">
+    <item>apk</item>
+</array>
+    <array name="ext_archive">
+    <item>zip</item>
+    <item>rar</item>
+</array>
+    <array name="ext_audio">
+    <item>mp3</item>
+    <item>wav</item>
+    <item>ogg</item>
+    <item>midi</item>
+    <item>wma</item>
+    <item>amr</item>
+</array>
+    <array name="ext_ebook">
+    <item>txt</item>
+    <item>uml</item>
+    <item>ebk</item>
+    <item>chm</item>
+</array>
+    <array name="ext_excel">
+    <item>xls</item>
+    <item>xlsx</item>
+</array>
+    <array name="ext_image">
+    <item>png</item>
+    <item>gif</item>
+    <item>jpg</item>
+    <item>jpeg</item>
+    <item>bmp</item>
+    <item>mpo</item>
+</array>
+    <array name="ext_pdf">
+    <item>pdf</item>
+</array>
+    <array name="ext_ppt">
+    <item>ppt</item>
+    <item>pptx</item>
+    <item>pps</item>
+    <item>ppsx</item>
+</array>
+    <array name="ext_program">
+    <item>sh</item>
+    <item>java</item>
+    <item>c</item>
+    <item>cpp</item>
+    <item>xml</item>
+</array>
+    <array name="ext_video">
+    <item>mp4</item>
+    <item>rm</item>
+    <item>rmvb</item>
+    <item>3gpp</item>
+    <item>3gp</item>
+    <item>avi</item>
+    <item>mpeg</item>
+    <item>mpg</item>
+    <item>mov</item>
+    <item>mkv</item>
+    <item>flv</item>
+    <item>swf</item>
+    <item>asf</item>
+    <item>wmv</item>
+</array>
+    <array name="ext_webtext">
+    <item>htm</item>
+    <item>html</item>
+    <item>php</item>
+</array>
+    <array name="ext_word">
+    <item>doc</item>
+    <item>docx</item>
+</array>
+    <!-- From: file:/D:/Dev/work-git/MyProject/ZhaoYanCommonLib/res/values/iv_attrs.xml -->
+    <eat-comment/>
+    <attr format="reference" name="checkableImageViewStyle"/>
+    <!-- From: file:/D:/Dev/work-git/MyProject/ZhaoYanCommonLib/res/values/action_menu_attrs.xml -->
+    <eat-comment/>
+    <attr format="boolean" name="enable"/>
+    <attr format="reference" name="iconDisable"/>
+    <attr format="reference" name="iconEnable"/>
+    <attr format="reference" name="id"/>
+    <!-- From: file:/D:/Dev/work-git/MyProject/ZhaoYanCommonLib/res/values/iv_attrs.xml -->
+    <eat-comment/>
+    <attr format="reference" name="multiChoiceAdapterStyle"/>
+    <!-- From: file:/D:/Dev/work-git/MyProject/ZhaoYanCommonLib/res/values/action_menu_attrs.xml -->
+    <eat-comment/>
+    <attr format="string|reference" name="title"/>
+    <!-- From: file:/D:/Dev/work-git/MyProject/ZhaoYanCommonLib/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="dialog_bg">#fff9f0f0</color>
+    <color name="divider_color">#11000000</color>
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <color name="holo_blue_light_transparent">#3f33b5e5</color>
+    <color name="holo_blue_light_transparent2">#7f33b5e5</color>
+    <color name="kk_theme_color">#E6DFDF</color>
+    <color name="menu_text_disable">#D9D9D9</color>
+    <color name="menu_text_enable">#000000</color>
+    <color name="table_title_selected">#5d91be</color>
+    <color name="table_title_unselected">#696969</color>
+    <declare-styleable name="CheckableImageView"><attr name="android:foreground"/></declare-styleable>
+    <declare-styleable name="MultiChoiceAdapter"><attr name="itemClickInActionMode"><enum name="selectItem" value="0"/><enum name="openItem" value="1"/></attr></declare-styleable>
+    <declare-styleable name="ZyMenuItem"><attr name="id"/><attr name="title"/><attr name="iconEnable"/><attr name="iconDisable"/><attr name="enable"/></declare-styleable>
+    <!-- From: file:/D:/Dev/work-git/MyProject/ZhaoYanCommonLib/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">ZhaoyanCommonLib</string>
+    <string name="deleting">正在删除...</string>
+    <string name="dialog_select_type">选择文件类型</string>
+    <string name="dialog_type_audio">音频</string>
+    <string name="dialog_type_image">图像</string>
+    <string name="dialog_type_text">文本</string>
+    <string name="dialog_type_video">视频</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- From: file:/D:/Dev/work-git/MyProject/ZhaoYanCommonLib/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="Custom.ProgressBar.Horizontal" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/custom_progressbar</item>
+        <item name="android:minHeight">3dip</item>
+        <item name="android:maxHeight">3dip</item>
+    </style>
+    <style name="DialogWindowTitle">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="MultiChoiceAdapter_DefaultCheckableImageViewStyle">
+        <item name="android:foreground">@drawable/gallery_selector</item>
+    </style>
+    <style name="dialog_btn">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">36dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:background">@drawable/kk_theme_bg</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="dialog_tran" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+    </style>
+    <style name="dialog_untran" parent="dialog_tran">
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+</resources>

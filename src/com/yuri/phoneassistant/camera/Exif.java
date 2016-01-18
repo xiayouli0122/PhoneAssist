@@ -1,6 +1,6 @@
 package com.yuri.phoneassistant.camera;
 
-import com.zhaoyan.common.utils.Log;
+import com.yuri.phoneassistant.Log;
 
 
 public class Exif {

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+	<corners    
+          android:topLeftRadius="4dp"  
+          android:topRightRadius="4dp"  
+          android:bottomLeftRadius="0dp"  
+          android:bottomRightRadius="0dp"/>  
+	<solid android:color="#566574" />
+</shape><!-- From: file:/D:/Dev/work-git/MyProject/ZhaoYanCommonLib/res/drawable/dialog_title_bg.xml --><!-- From: file:/D:/Dev/work-git/MyProject/PhoneAssist/build/intermediates/exploded-aar/MyProject/ZhaoYanCommonLib/unspecified/res/drawable/dialog_title_bg.xml -->

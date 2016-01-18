@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#20000000"
+    android:orientation="vertical"
+    android:padding="8dip" >
+    
+    <TextView 
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:textColor="#FFFFFF" 
+        android:text="网络类型:"
+        />
+
+    <TextView
+        android:id="@+id/tv_today_traffic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:textColor="#FFFFFF"
+        android:text="今日:"
+         />
+
+    <TextView
+        android:id="@+id/tv_month_traffic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:text="本月:"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout><!-- From: file:/D:/Dev/work-git/MyProject/PhoneAssist/res/layout/floating_layout.xml -->

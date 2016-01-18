@@ -3,7 +3,7 @@ package com.yuri.phoneassistant.traffic;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.zhaoyan.common.utils.Log;
+import com.yuri.phoneassistant.Log;
 
 public class TrafficMonthItem {
 	private static final String TAG = TrafficMonthItem.class.getSimpleName();

@@ -3,7 +3,7 @@ package com.yuri.phoneassistant;
 import android.graphics.SurfaceTexture;
 import android.hardware.Camera;
 import android.hardware.Camera.Parameters;
-import com.zhaoyan.common.utils.Log;
+import com.yuri.phoneassistant.Log;
 
 public class FlashLightManager {
 	private static final String TAG = FlashLightManager.class.getSimpleName();

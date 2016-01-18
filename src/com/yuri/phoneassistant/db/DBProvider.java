@@ -10,7 +10,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.database.sqlite.SQLiteQueryBuilder;
 import android.net.Uri;
-import com.zhaoyan.common.utils.Log;
+import com.yuri.phoneassistant.Log;
 
 public class DBProvider extends ContentProvider {
 	private static final String TAG = DBProvider.class.getSimpleName();

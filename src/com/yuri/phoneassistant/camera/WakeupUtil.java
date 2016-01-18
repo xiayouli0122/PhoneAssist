@@ -3,7 +3,7 @@ package com.yuri.phoneassistant.camera;
 import android.content.Context;
 import android.os.PowerManager;
 import android.os.PowerManager.WakeLock;
-import com.zhaoyan.common.utils.Log;
+import com.yuri.phoneassistant.Log;
 
 public class WakeupUtil {
 	private static final String TAG = WakeupUtil.class.getSimpleName();

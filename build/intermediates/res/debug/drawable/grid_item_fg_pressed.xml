@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <solid android:color="@color/holo_blue_light_transparent2" />
+    <stroke android:width="3dp" android:color="@color/holo_blue_light" />
+
+</shape><!-- From: file:/D:/Dev/work-git/MyProject/ZhaoYanCommonLib/res/drawable/grid_item_fg_pressed.xml --><!-- From: file:/D:/Dev/work-git/MyProject/PhoneAssist/build/intermediates/exploded-aar/MyProject/ZhaoYanCommonLib/unspecified/res/drawable/grid_item_fg_pressed.xml -->

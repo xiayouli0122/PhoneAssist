@@ -33,12 +33,12 @@ import android.widget.RemoteViews;
 
 import com.yuri.phoneassistant.CommonService;
 import com.yuri.phoneassistant.DateUtils;
+import com.yuri.phoneassistant.Log;
 import com.yuri.phoneassistant.NetWorkUtil;
 import com.yuri.phoneassistant.R;
 import com.yuri.phoneassistant.WeakRefHandler;
 import com.yuri.phoneassistant.db.MetaData.TrafficsDay;
 import com.yuri.phoneassistant.db.MetaData.TrafficsMonth;
-import com.zhaoyan.common.utils.Log;
 
 public class TrafficService extends Service {
 	private static final String TAG = TrafficService.class.getSimpleName();
@@ -122,8 +122,7 @@ public class TrafficService extends Service {
 		super.onCreate();
 		Log.d(TAG, "onCreate>>>>");
 		
-		String logDir = Environment.getExternalStorageDirectory().getAbsolutePath() + File.separator + "PA";
-		Log.startSaveToFile(logDir);
+		Log.startSaveToFile();
 		
 		IntentFilter filter = new IntentFilter();
 		filter.addAction(ConnectivityManager.CONNECTIVITY_ACTION);

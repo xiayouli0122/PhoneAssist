@@ -7,7 +7,7 @@ import android.os.IBinder;
 import android.provider.Settings;
 
 import com.yuri.phoneassistant.traffic.TrafficService;
-import com.zhaoyan.common.utils.Log;
+import com.yuri.phoneassistant.Log;
 import com.zhaoyan.common.utils.Utils;
 
 public class CommonService extends Service {

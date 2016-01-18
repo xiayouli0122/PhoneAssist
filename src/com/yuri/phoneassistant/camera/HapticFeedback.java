@@ -5,7 +5,7 @@ import android.content.res.Resources;
 import android.os.Vibrator;
 
 import com.yuri.phoneassistant.R;
-import com.zhaoyan.common.utils.Log;
+import com.yuri.phoneassistant.Log;
 
 /**
  * Make a vibrating.<br/>

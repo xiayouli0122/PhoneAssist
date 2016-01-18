@@ -6,7 +6,7 @@ import java.util.TimerTask;
 
 import com.yuri.phoneassistant.NetWorkUtil;
 import com.yuri.phoneassistant.WeakRefHandler;
-import com.zhaoyan.common.utils.Log;
+import com.yuri.phoneassistant.Log;
 
 import android.R.integer;
 import android.app.AlertDialog;

@@ -47,7 +47,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.yuri.phoneassistant.R;
-import com.zhaoyan.common.utils.Log;
+import com.yuri.phoneassistant.Log;
 
 public class QuickVideoRecoder extends Activity implements OnClickListener,
 		OnTouchListener, Callback {

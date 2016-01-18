@@ -7,7 +7,7 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
-import com.zhaoyan.common.utils.Log;
+import com.yuri.phoneassistant.Log;
 import android.widget.RemoteViews;
 
 public class PANotificationManager {

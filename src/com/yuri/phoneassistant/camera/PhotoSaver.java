@@ -16,7 +16,7 @@ import android.os.Build;
 import android.os.Environment;
 import android.provider.MediaStore.Images;
 import android.provider.MediaStore.Images.ImageColumns;
-import com.zhaoyan.common.utils.Log;
+import com.yuri.phoneassistant.Log;
 
 public class PhotoSaver {
 	private static final String TAG = PhotoSaver.class.getSimpleName();

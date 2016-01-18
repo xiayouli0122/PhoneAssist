@@ -5,7 +5,9 @@ import java.lang.reflect.Method;
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-import com.zhaoyan.common.utils.Log;
+import android.text.TextUtils;
+
+import com.yuri.phoneassistant.Log;
 
 public class NetWorkUtil {
 	
@@ -28,11 +30,16 @@ public class NetWorkUtil {
 			Log.e("networkInfo.getExtraInfo()",
 					"networkInfo.getExtraInfo() is "
 							+ networkInfo.getExtraInfo());
-			if (networkInfo.getExtraInfo().toLowerCase().equals("cmnet")) {
-				netType = 3;
-			} else {
-				netType = 2;
-			}
+			String extraInfo = networkInfo.getExtraInfo();
+			if (TextUtils.isEmpty(extraInfo)) {
+			    netType = 2;
+            } else {
+                if (networkInfo.getExtraInfo().toLowerCase().equals("cmnet")) {
+                    netType = 3;
+                } else {
+                    netType = 2;
+                }
+            }
 		} else if (nType == ConnectivityManager.TYPE_WIFI) {
 			netType = 1;
 		}

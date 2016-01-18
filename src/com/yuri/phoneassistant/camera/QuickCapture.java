@@ -30,7 +30,7 @@ import android.os.Vibrator;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v4.widget.SwipeRefreshLayout.OnRefreshListener;
 import android.util.DisplayMetrics;
-import com.zhaoyan.common.utils.Log;
+import com.yuri.phoneassistant.Log;
 
 import android.view.KeyEvent;
 import android.view.Surface;

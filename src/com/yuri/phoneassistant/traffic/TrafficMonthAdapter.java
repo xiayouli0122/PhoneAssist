@@ -2,8 +2,8 @@ package com.yuri.phoneassistant.traffic;
 
 import java.util.List;
 
-import com.nineoldandroids.view.ViewHelper;
 import com.yuri.phoneassistant.R;
+import com.yuri.phoneassistant.Log;
 
 import android.content.Context;
 import android.text.format.Formatter;
@@ -55,6 +55,8 @@ public class TrafficMonthAdapter extends BaseAdapter {
 		TrafficMonthItem item = mDataItems.get(position);
 		titleView.setText((item.getMonth() + 1) + "月");
 		
+		Log.d(TAG, "getView.month:" + (item.getMonth() + 1));
+		Log.d(TAG, "getView.getMonthBytes:" + (item.getMonthBytes()));
 		numView.setText(Formatter.formatFileSize(mContext, item.getMonthBytes()));
 		
 		return view;

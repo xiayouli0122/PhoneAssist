@@ -1,6 +1,6 @@
 package com.yuri.phoneassistant.traffic;
 
-import com.zhaoyan.common.utils.Log;
+import com.yuri.phoneassistant.Log;
 
 public class TrafficDayItem {
 	private static final String TAG = TrafficDayItem.class.getSimpleName();
